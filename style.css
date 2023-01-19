@@ -1,0 +1,70 @@
+body{
+    font-family: 'Outfit',sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+}
+.card_section{
+    align-self: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 2%;
+    padding: 20px;
+    width: 300px;
+    border: 1px hsl(215, 32%, 27%);
+}
+.image_header img{
+    border-radius: 2%;
+    width: 100%;
+}
+p{
+    color: hsl(0, 0%, 100%);
+}
+.precio{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+}
+.content .firstP{
+    font-size: 20px;
+
+}
+.secondP{
+    color: hsl(215, 32%, 60%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.priceP{
+    color: hsl(179, 87%, 56%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.foot{
+    display: inline-block;
+    justify-content: flex-start;
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+}
+
+.foot img{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 0.8rem;
+}
+ 
+.img_foot{
+    vertical-align: middle;
+}
+hr {
+    height: 0px;
+  opacity: 10%;
+  background-color: hsl(214, 31%, 27%);
+}
+.textCreation{
+    color: hsl(215, 32%, 60%)
+}
